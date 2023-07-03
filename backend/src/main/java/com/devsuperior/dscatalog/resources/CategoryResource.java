@@ -23,6 +23,4 @@ public class CategoryResource {
 		List<Category> list = service.finAll();
 		return ResponseEntity.ok().body(list);
 	}
-	
-	
 }
